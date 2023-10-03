@@ -1,0 +1,217 @@
+/* html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo{
+    text-align: center;
+    background-color: rgb(49, 109, 179);
+    color: white;
+    padding: 0.5em;
+  }
+  
+  #character-bar {
+    height: 15vh;
+    background: rgb(49, 109, 179);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3vh;
+  }
+  
+  #character-bar span {
+    padding: 1%;
+    height: 80%;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    align-items: center;
+    border-radius: 2em;
+    border: 1px solid white;
+  }
+  
+  .characterInfo{
+    height: 550px;
+    padding: 30px;
+    font-size: 24px;
+    border: dotted;
+    text-align: center;
+  }
+  
+  input[type="submit"], button {
+    background-color: rgb(49, 109, 179);
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  input[type="text"] {
+    font-size: 3vh;
+  }
+  
+  #image{
+    width: 300px;
+    height: 300px;
+  } */
+  
+
+  body, h1, h4, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a font and background color to the body */
+  body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the logo */
+  .logo{
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .logo h1 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Style the character bar */
+  #character-bar {
+    height: 5vh;
+    background: #3498db;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3vh;
+  }
+  
+  #character-bar span {
+    padding: 10px;
+    height: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  #character-bar span:hover {
+    background-color: orange;
+  }
+  
+  /* Style the characterInfo container */
+  .characterInfo{
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+  }
+  
+  /* Style the detailed info section */
+  #detailed-info {
+    text-align: center;
+  }
+  
+  #image{
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+  }
+  
+  #name {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  
+  #vote-count {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  /* Style the votes form */
+  #votes-form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #votes {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #votes-form input[type="submit"] {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the reset button */
+  #reset-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Style the "Add New Character" section */
+  .characterInfo h4 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  #character-form {
+    margin-top: 20px;
+  }
+  
+  /* Style form elements */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add hover effects for buttons */
+  input[type="submit"]:hover, #reset-btn:hover {
+    background-color: #2980b9;
+  }
